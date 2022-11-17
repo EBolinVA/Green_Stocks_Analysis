@@ -10,11 +10,11 @@ Steve provided an Excel file with two worksheets containing data for the 12 stoc
 
 ### 2017 Results 
 
-For the 12 stocks analyzed for 2017, all but one stock had a positive return. The best performing stocks were DQ with 199.4% return, and SEDG with 184.5% return. The lowest performing stock was TERP with a -7.2% return.
+For the 12 stocks analyzed for 2017, all but one stock had a positive return. The best performing stocks were Daqo New Energy Corp (NYSE: DQ) with 199.4% return, and SolarEdge Technologies Inc (NASDAQ: SEDG) with 184.5% return. The lowest performing stock was TerraForm Power (NASDAQ: TERP) with a -7.2% return.
 
 ### 2018 Results
 
-The story in 2018 was not as rosy. All but two stocks suffered losses. The only two stocks with positive returns in 2018 were ENPH at 81.9% return, and RUN with 84.0% return. DQ ended the year down 81.9% and SEDG lost 7.8%.
+The story in 2018 was not as rosy. All but two stocks suffered losses. The only two stocks with positive returns in 2018 were Enphase Energy Inc (NASDAQ: ENPH) at 81.9% return, and Sunrun Inc (NASDAQ: RUN) with 84.0% return. Daqo New Energy Corp (DQ), the stock in which our client's parents were most interested, ended the year down 81.9%. Another loser was SolarEdge Technologies Inc (NASDAQ: SEDG) which lost 7.8% after their huge run in 2017.
 
 ## How the returns were calculated
 Indexes and for loops were used in the coding to loop over all the rows in the spreadsheet while collecting data for Starting Price, Ending Price, and Volume for each stock. The Starting Price was collected from the first row (first day) of each stock, and the Ending Price was collected from the last row (last day) of each stock. Volumes were collected daily for each stock and added together in order to be output into the 'Return' column on the analysis worksheet. 
@@ -82,3 +82,12 @@ Original VBA Code for 2018          |          Refactored Code for 2018
 
 ![Image of pop-up message showing elapsed run time of original script for 2018 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/Original_time_2018.png) ![Image of pop-up message showing elapsed run time of refactored script for 2018 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/VBA_Challenge_2018.png)
 
+## Summary: Pros and Cons of Refactoring
+
+The advantages of refactoring code begin with the fact that you are not writing code from scratch. There may already some code out there which is a good start for the task. However, understanding and implementing more complex commands like nested for loops can significantly improve efficiency when running the code, especially over larger data sets. 
+
+Another advantage to refactoring code is readability. As the code is easier to read and understand, there will be less energy put into maintaining the code in the future.
+
+A disadvantage to refactoring code is that you could get yourself lost in the process. Once begun, it proved to be very time consuming. Each line of code must be checked and debugged before moving on to the next command. Will the runtime saved be worth the man hours it took to refactor?
+
+In this project, the data analyst spent many hours reviewing manuals, writing and testing code, collaborating with colleagues, and calling the help desk in order to deliver a product that works for the client. The effort to refactor a coding project with only 12 stocks which gained less than half a second when running the refactored code does not seem worth the effort. However, this data analyst has ambitions for much larger projects with enormous sets of data. There is no con which can be applied to learning new skills. Refactoring code that saves the end user time when interacting with data may well be worth it for the long run. 
