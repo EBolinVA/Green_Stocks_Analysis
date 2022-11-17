@@ -67,12 +67,16 @@ Indexes and for loops were used in the coding to loop over all the rows in the s
 
 In the original script, the execution time of the code was 0.585 seconds for 2017 stocks. However, after refactoring the script, the code ran more efficiently in 0.148 seconds. 
 
-![Image of pop-up message showing elapsed run time of original script for 2017 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/Original_time_2017.png)
+Original VBA Code for 2017          |          Refactored Code for 2017
+:-----------------------------------|-----------------------------------------:
 
-![Image of pop-up message showing elapsed run time of refactored script for 2017 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/VBA_Challenge_2017.png)
+
+![Image of pop-up message showing elapsed run time of original script for 2017 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/Original_time_2017.png) ![Image of pop-up message showing elapsed run time of refactored script for 2017 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/VBA_Challenge_2017.png)
 
 
 In the refactored script, the execution time of the code was 0.148sec for 2017 stocks, and 0.141sec for 2018 stocks.
 
-![Image of pop-up message showing elapsed run time of refactored script for 2017 stocks]
+Original VBA Code for 2018          |          Refactored Code for 2018
+:-----------------------------------|-----------------------------------------:
+![Image of pop-up message showing elapsed run time of original script for 2018 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/Original_time_2018.png) ![Image of pop-up message showing elapsed run time of refactored script for 2018 stocks](https://github.com/EBolinVA/Module_2_VBA_Challenge/blob/main/VBA_Challenge_2018.png)
 
