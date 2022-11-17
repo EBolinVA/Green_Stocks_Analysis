@@ -8,3 +8,6 @@ A friend, Steve, asked for help analyzing a variety of green stocks for his pare
 
 Steve provided an Excel file with two worksheets containing data for the 12 stocks. Each worksheet (named "2017" and "2018") had daily records over the course of a year for opening price, closing price, and volume traded.
 
+In the original script, the execution time of the code was 0.585sec for 2017 stocks, and 0.609sec for 2018 stocks. 
+
+![Image of pop-up message showing elapsed run time of original script for 2017 stocks]()
